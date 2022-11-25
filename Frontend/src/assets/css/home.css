@@ -1,0 +1,57 @@
+@import "nav.css";
+@import "product.css";
+@import "collection.css";
+@import "footer.css";
+@import "productDetail.css";
+@import "form.css";
+@import "Popup.css";
+@import "cart.css";
+@import "user.css";
+
+.hero-section {
+    width: 100%;
+    height: calc(100vh-120px);
+    background-image: url("../img/header.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.hero-section logo {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.hero-section .sub-heading {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.four-0-four-error {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.four-0-four-msg {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #383838;
+}
+
+.four-0-four-link {
+    color: #383838
+}
+
+.logout-container {
+    padding: 25px;
+    text-align: center;
+}

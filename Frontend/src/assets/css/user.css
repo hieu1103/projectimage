@@ -1,0 +1,132 @@
+.user-section{
+    width: 100%;
+    padding: 20px 10vw;
+    display: flex;
+}
+.user-info{
+    margin-top : 50px;
+    width : 400px;
+    height: 200px;
+    padding: 10px 25px;
+    border: 1px solid #383838;
+    border-radius:  10px;
+}
+.user-info h1 {
+    text-align: center ;
+
+}
+.user-info p {
+    margin-top : 5px;
+    font-size : 20px;
+}
+.user-info button {
+    margin-top : 15px;
+    width: 150px;
+    height: 35px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.user-order {
+    padding : 0;
+    width : 1000px;
+}
+.user-order h1 {
+    text-align: center;
+    padding-bottom : 3px;
+}
+.user-order-section {
+    width: 98%;
+    margin: 1%;
+    border-radius: 10px;    
+    padding : 0;
+    height :auto;
+    border: 1px solid black ;
+
+}
+.order-info {
+
+    width : 95%;
+    margin-left: 10px;
+    /* border: 1px solid black ;
+    border-radius : 5px; */
+    justify-content: space-around;
+    display: flex;
+    height : 120px;
+    margin-top : 10px;
+}
+.order-info p {
+    margin: 10px;
+    font-size :20px;
+}
+.detail-btn {
+    font-size : 20px;
+    margin-top : 40px;
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.item-detail{
+    width :98%;
+    margin-left : 20px;  
+    border: 1px solid rgb(161, 161, 161);
+    height:180px;
+    display : flex;
+    margin : 10px;
+    border-radius: 15px;
+
+}
+.item-thumbnail{
+    margin-top: auto;
+    width :50%;
+    
+}
+.item-detail img {
+    width :20%;
+    margin-left: 15px;
+}
+.item-info {
+    margin-left: 50px;
+    margin-top : 50px;
+    padding :10px;
+    width :350px;
+}
+.item-info h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 200px;
+}
+.item-title{
+    font-size: 30px;
+    font-weight: 300;
+}
+.item-price {
+    font-size: 20px;
+}
+.item-info-2 {
+    margin-top :60px;
+    margin-left : 100px;
+}
+.item-info-2 p {
+    font-size: 20px;
+    display : flex;
+}
+
+.info-group-1, .info-group-2{
+    width :300px;
+
+}
